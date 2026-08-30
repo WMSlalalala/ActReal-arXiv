@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Sensor Study Collector</string>
+    <string name="status_no_session">Status: no session created yet</string>
+</resources>

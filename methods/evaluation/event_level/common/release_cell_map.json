@@ -1,0 +1,998 @@
+{
+  "release_thresholds_root": "checkpoints/detectors",
+  "release_models_root": "checkpoints/detectors",
+  "cells": {
+    "keystroke__imu_only__authconformer": {
+      "thresholds": "checkpoints/detectors/keystroke__imu_only__authconformer/thresholds.json",
+      "frr5": 0.8349258899688721,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v10",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/keystroke__imu_only__authconformer",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "keystroke__imu_only__behaveformer_stdat": {
+      "thresholds": "checkpoints/detectors/keystroke__imu_only__behaveformer_stdat/thresholds.json",
+      "frr5": 0.5352557301521301,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v10",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/keystroke__imu_only__behaveformer_stdat",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "keystroke__imu_only__hmog_style_rf": {
+      "thresholds": "checkpoints/detectors/keystroke__imu_only__hmog_style_rf/thresholds.json",
+      "frr5": 0.6839964674703624,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v10",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/keystroke__imu_only__hmog_style_rf",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "keystroke__imu_only__hmog_style_svm": {
+      "thresholds": "checkpoints/detectors/keystroke__imu_only__hmog_style_svm/thresholds.json",
+      "frr5": 0.4318700572254676,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v10",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/keystroke__imu_only__hmog_style_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "keystroke__imu_only__paper_svm": {
+      "thresholds": "checkpoints/detectors/keystroke__imu_only__paper_svm/thresholds.json",
+      "frr5": 0.4297561258562813,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v10",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/keystroke__imu_only__paper_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "keystroke__imu_only__paper_xgboost": {
+      "thresholds": "checkpoints/detectors/keystroke__imu_only__paper_xgboost/thresholds.json",
+      "frr5": 0.8151863813400269,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v10",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/keystroke__imu_only__paper_xgboost",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "keystroke__imu_trajectory_xytime__authconformer": {
+      "thresholds": "checkpoints/detectors/keystroke__imu_trajectory_xytime__authconformer/thresholds.json",
+      "frr5": 0.7601473927497864,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v10",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/keystroke__imu_trajectory_xytime__authconformer",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "keystroke__imu_trajectory_xytime__behaveformer_stdat": {
+      "thresholds": "checkpoints/detectors/keystroke__imu_trajectory_xytime__behaveformer_stdat/thresholds.json",
+      "frr5": 0.5422673225402832,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v10",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/keystroke__imu_trajectory_xytime__behaveformer_stdat",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "keystroke__imu_trajectory_xytime__hmog_style_rf": {
+      "thresholds": "checkpoints/detectors/keystroke__imu_trajectory_xytime__hmog_style_rf/thresholds.json",
+      "frr5": 0.6926227924162547,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v10",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/keystroke__imu_trajectory_xytime__hmog_style_rf",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "keystroke__imu_trajectory_xytime__hmog_style_svm": {
+      "thresholds": "checkpoints/detectors/keystroke__imu_trajectory_xytime__hmog_style_svm/thresholds.json",
+      "frr5": 0.48262799997688316,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v10",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/keystroke__imu_trajectory_xytime__hmog_style_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "keystroke__imu_trajectory_xytime__paper_svm": {
+      "thresholds": "checkpoints/detectors/keystroke__imu_trajectory_xytime__paper_svm/thresholds.json",
+      "frr5": 0.5684425316649094,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v10",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/keystroke__imu_trajectory_xytime__paper_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "keystroke__imu_trajectory_xytime__paper_xgboost": {
+      "thresholds": "checkpoints/detectors/keystroke__imu_trajectory_xytime__paper_xgboost/thresholds.json",
+      "frr5": 0.8247122168540955,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v10",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/keystroke__imu_trajectory_xytime__paper_xgboost",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "keystroke__trajectory_xytime__authconformer": {
+      "thresholds": "checkpoints/detectors/keystroke__trajectory_xytime__authconformer/thresholds.json",
+      "frr5": 0.5797834396362305,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v10",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/keystroke__trajectory_xytime__authconformer",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "keystroke__trajectory_xytime__behaveformer_stdat": {
+      "thresholds": "checkpoints/detectors/keystroke__trajectory_xytime__behaveformer_stdat/thresholds.json",
+      "frr5": 0.5101322531700134,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v10",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/keystroke__trajectory_xytime__behaveformer_stdat",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "keystroke__trajectory_xytime__hmog_style_rf": {
+      "thresholds": "checkpoints/detectors/keystroke__trajectory_xytime__hmog_style_rf/thresholds.json",
+      "frr5": 0.7590108698628051,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v10",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/keystroke__trajectory_xytime__hmog_style_rf",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "keystroke__trajectory_xytime__hmog_style_svm": {
+      "thresholds": "checkpoints/detectors/keystroke__trajectory_xytime__hmog_style_svm/thresholds.json",
+      "frr5": 0.16343624672209334,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v10",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/keystroke__trajectory_xytime__hmog_style_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "keystroke__trajectory_xytime__paper_svm": {
+      "thresholds": "checkpoints/detectors/keystroke__trajectory_xytime__paper_svm/thresholds.json",
+      "frr5": 0.29636591272080187,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v10",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/keystroke__trajectory_xytime__paper_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "keystroke__trajectory_xytime__paper_xgboost": {
+      "thresholds": "checkpoints/detectors/keystroke__trajectory_xytime__paper_xgboost/thresholds.json",
+      "frr5": 0.8631918430328369,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v10",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/keystroke__trajectory_xytime__paper_xgboost",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "pinch__imu_only__authconformer": {
+      "thresholds": "checkpoints/detectors/pinch__imu_only__authconformer/thresholds.json",
+      "frr5": 0.6563828587532043,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_full",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/pinch__imu_only__authconformer",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "pinch__imu_only__behaveformer_stdat": {
+      "thresholds": "checkpoints/detectors/pinch__imu_only__behaveformer_stdat/thresholds.json",
+      "frr5": 0.621711015701294,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_full",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/pinch__imu_only__behaveformer_stdat",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "pinch__imu_only__hmog_style_rf": {
+      "thresholds": "checkpoints/detectors/pinch__imu_only__hmog_style_rf/thresholds.json",
+      "frr5": 0.7576340685760868,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_full",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/pinch__imu_only__hmog_style_rf",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "pinch__imu_only__hmog_style_svm": {
+      "thresholds": "checkpoints/detectors/pinch__imu_only__hmog_style_svm/thresholds.json",
+      "frr5": 0.27079070179146236,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_full",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/pinch__imu_only__hmog_style_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "pinch__imu_only__paper_svm": {
+      "thresholds": "checkpoints/detectors/pinch__imu_only__paper_svm/thresholds.json",
+      "frr5": 0.28595860786291466,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_full",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/pinch__imu_only__paper_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "pinch__imu_only__paper_xgboost": {
+      "thresholds": "checkpoints/detectors/pinch__imu_only__paper_xgboost/thresholds.json",
+      "frr5": 0.8237996697425842,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_full",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/pinch__imu_only__paper_xgboost",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "pinch__imu_trajectory_xytime__authconformer": {
+      "thresholds": "checkpoints/detectors/pinch__imu_trajectory_xytime__authconformer/thresholds.json",
+      "frr5": 0.8736689686775208,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/pinch__imu_trajectory_xytime__authconformer",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "pinch__imu_trajectory_xytime__behaveformer_stdat": {
+      "thresholds": "checkpoints/detectors/pinch__imu_trajectory_xytime__behaveformer_stdat/thresholds.json",
+      "frr5": 0.7139691114425659,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/pinch__imu_trajectory_xytime__behaveformer_stdat",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "pinch__imu_trajectory_xytime__hmog_style_rf": {
+      "thresholds": "checkpoints/detectors/pinch__imu_trajectory_xytime__hmog_style_rf/thresholds.json",
+      "frr5": 0.7237348982514366,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/pinch__imu_trajectory_xytime__hmog_style_rf",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "pinch__imu_trajectory_xytime__hmog_style_svm": {
+      "thresholds": "checkpoints/detectors/pinch__imu_trajectory_xytime__hmog_style_svm/thresholds.json",
+      "frr5": 0.3156723298646055,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/pinch__imu_trajectory_xytime__hmog_style_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "pinch__imu_trajectory_xytime__paper_svm": {
+      "thresholds": "checkpoints/detectors/pinch__imu_trajectory_xytime__paper_svm/thresholds.json",
+      "frr5": 0.3408228124730942,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/pinch__imu_trajectory_xytime__paper_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "pinch__imu_trajectory_xytime__paper_xgboost": {
+      "thresholds": "checkpoints/detectors/pinch__imu_trajectory_xytime__paper_xgboost/thresholds.json",
+      "frr5": 0.7972422242164612,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/pinch__imu_trajectory_xytime__paper_xgboost",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "pinch__trajectory_xytime__authconformer": {
+      "thresholds": "checkpoints/detectors/pinch__trajectory_xytime__authconformer/thresholds.json",
+      "frr5": 0.733738124370575,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/pinch__trajectory_xytime__authconformer",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "pinch__trajectory_xytime__behaveformer_stdat": {
+      "thresholds": "checkpoints/detectors/pinch__trajectory_xytime__behaveformer_stdat/thresholds.json",
+      "frr5": 0.6868079900741577,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/pinch__trajectory_xytime__behaveformer_stdat",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "pinch__trajectory_xytime__hmog_style_rf": {
+      "thresholds": "checkpoints/detectors/pinch__trajectory_xytime__hmog_style_rf/thresholds.json",
+      "frr5": 0.7189804699302486,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/pinch__trajectory_xytime__hmog_style_rf",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "pinch__trajectory_xytime__hmog_style_svm": {
+      "thresholds": "checkpoints/detectors/pinch__trajectory_xytime__hmog_style_svm/thresholds.json",
+      "frr5": 0.290311779513052,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/pinch__trajectory_xytime__hmog_style_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "pinch__trajectory_xytime__paper_svm": {
+      "thresholds": "checkpoints/detectors/pinch__trajectory_xytime__paper_svm/thresholds.json",
+      "frr5": 0.22437477510584297,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/pinch__trajectory_xytime__paper_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "pinch__trajectory_xytime__paper_xgboost": {
+      "thresholds": "checkpoints/detectors/pinch__trajectory_xytime__paper_xgboost/thresholds.json",
+      "frr5": 0.7912166118621826,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/pinch__trajectory_xytime__paper_xgboost",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "scroll__imu_only__authconformer": {
+      "thresholds": "checkpoints/detectors/scroll__imu_only__authconformer/thresholds.json",
+      "frr5": 0.8401365280151367,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v15",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/scroll__imu_only__authconformer",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "scroll__imu_only__behaveformer_stdat": {
+      "thresholds": "checkpoints/detectors/scroll__imu_only__behaveformer_stdat/thresholds.json",
+      "frr5": 0.871391236782074,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v15",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/scroll__imu_only__behaveformer_stdat",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "scroll__imu_only__hmog_style_rf": {
+      "thresholds": "checkpoints/detectors/scroll__imu_only__hmog_style_rf/thresholds.json",
+      "frr5": 0.7746658730158725,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v15",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/scroll__imu_only__hmog_style_rf",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "scroll__imu_only__hmog_style_svm": {
+      "thresholds": "checkpoints/detectors/scroll__imu_only__hmog_style_svm/thresholds.json",
+      "frr5": 0.3844740601841719,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v15",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/scroll__imu_only__hmog_style_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "scroll__imu_only__paper_svm": {
+      "thresholds": "checkpoints/detectors/scroll__imu_only__paper_svm/thresholds.json",
+      "frr5": 0.35097903012131215,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v15",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/scroll__imu_only__paper_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "scroll__imu_only__paper_xgboost": {
+      "thresholds": "checkpoints/detectors/scroll__imu_only__paper_xgboost/thresholds.json",
+      "frr5": 0.8436194658279419,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v15",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/scroll__imu_only__paper_xgboost",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "scroll__imu_trajectory_xytime__authconformer": {
+      "thresholds": "checkpoints/detectors/scroll__imu_trajectory_xytime__authconformer/thresholds.json",
+      "frr5": 0.9923269152641296,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v15",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/scroll__imu_trajectory_xytime__authconformer",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "scroll__imu_trajectory_xytime__behaveformer_stdat": {
+      "thresholds": "checkpoints/detectors/scroll__imu_trajectory_xytime__behaveformer_stdat/thresholds.json",
+      "frr5": 0.8153945803642273,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v15",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/scroll__imu_trajectory_xytime__behaveformer_stdat",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "scroll__imu_trajectory_xytime__hmog_style_rf": {
+      "thresholds": "checkpoints/detectors/scroll__imu_trajectory_xytime__hmog_style_rf/thresholds.json",
+      "frr5": 0.6953935286935286,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v15",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/scroll__imu_trajectory_xytime__hmog_style_rf",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "scroll__imu_trajectory_xytime__hmog_style_svm": {
+      "thresholds": "checkpoints/detectors/scroll__imu_trajectory_xytime__hmog_style_svm/thresholds.json",
+      "frr5": 0.3897405773813395,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v15",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/scroll__imu_trajectory_xytime__hmog_style_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "scroll__imu_trajectory_xytime__paper_svm": {
+      "thresholds": "checkpoints/detectors/scroll__imu_trajectory_xytime__paper_svm/thresholds.json",
+      "frr5": 0.4024686547410442,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v15",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/scroll__imu_trajectory_xytime__paper_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "scroll__imu_trajectory_xytime__paper_xgboost": {
+      "thresholds": "checkpoints/detectors/scroll__imu_trajectory_xytime__paper_xgboost/thresholds.json",
+      "frr5": 0.7534279227256775,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v15",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/scroll__imu_trajectory_xytime__paper_xgboost",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "scroll__trajectory_xytime__authconformer": {
+      "thresholds": "checkpoints/detectors/scroll__trajectory_xytime__authconformer/thresholds.json",
+      "frr5": 0.9271993637084961,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v15",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/scroll__trajectory_xytime__authconformer",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "scroll__trajectory_xytime__behaveformer_stdat": {
+      "thresholds": "checkpoints/detectors/scroll__trajectory_xytime__behaveformer_stdat/thresholds.json",
+      "frr5": 0.6111462712287903,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v15",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/scroll__trajectory_xytime__behaveformer_stdat",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "scroll__trajectory_xytime__hmog_style_rf": {
+      "thresholds": "checkpoints/detectors/scroll__trajectory_xytime__hmog_style_rf/thresholds.json",
+      "frr5": 0.7128604617604615,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v15",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/scroll__trajectory_xytime__hmog_style_rf",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "scroll__trajectory_xytime__hmog_style_svm": {
+      "thresholds": "checkpoints/detectors/scroll__trajectory_xytime__hmog_style_svm/thresholds.json",
+      "frr5": 0.3571717027856819,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v15",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/scroll__trajectory_xytime__hmog_style_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "scroll__trajectory_xytime__paper_svm": {
+      "thresholds": "checkpoints/detectors/scroll__trajectory_xytime__paper_svm/thresholds.json",
+      "frr5": 0.3922076479298735,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v15",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/scroll__trajectory_xytime__paper_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "scroll__trajectory_xytime__paper_xgboost": {
+      "thresholds": "checkpoints/detectors/scroll__trajectory_xytime__paper_xgboost/thresholds.json",
+      "frr5": 0.7857620120048523,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v15",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/scroll__trajectory_xytime__paper_xgboost",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "swipe__imu_only__authconformer": {
+      "thresholds": "checkpoints/detectors/swipe__imu_only__authconformer/thresholds.json",
+      "frr5": 0.6651148796081543,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_full",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/swipe__imu_only__authconformer",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "swipe__imu_only__behaveformer_stdat": {
+      "thresholds": "checkpoints/detectors/swipe__imu_only__behaveformer_stdat/thresholds.json",
+      "frr5": 0.6846945285797119,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_full",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/swipe__imu_only__behaveformer_stdat",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "swipe__imu_only__hmog_style_rf": {
+      "thresholds": "checkpoints/detectors/swipe__imu_only__hmog_style_rf/thresholds.json",
+      "frr5": 0.7745977902900771,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_full",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/swipe__imu_only__hmog_style_rf",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "swipe__imu_only__hmog_style_svm": {
+      "thresholds": "checkpoints/detectors/swipe__imu_only__hmog_style_svm/thresholds.json",
+      "frr5": 0.30483574401658287,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_full",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/swipe__imu_only__hmog_style_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "swipe__imu_only__paper_svm": {
+      "thresholds": "checkpoints/detectors/swipe__imu_only__paper_svm/thresholds.json",
+      "frr5": 0.35383138612450804,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_full",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/swipe__imu_only__paper_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "swipe__imu_only__paper_xgboost": {
+      "thresholds": "checkpoints/detectors/swipe__imu_only__paper_xgboost/thresholds.json",
+      "frr5": 0.8291236758232117,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_full",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/swipe__imu_only__paper_xgboost",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "swipe__imu_trajectory_xytime__authconformer": {
+      "thresholds": "checkpoints/detectors/swipe__imu_trajectory_xytime__authconformer/thresholds.json",
+      "frr5": 0.9608525633811951,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v8",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/swipe__imu_trajectory_xytime__authconformer",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "swipe__imu_trajectory_xytime__behaveformer_stdat": {
+      "thresholds": "checkpoints/detectors/swipe__imu_trajectory_xytime__behaveformer_stdat/thresholds.json",
+      "frr5": 0.868583083152771,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v8",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/swipe__imu_trajectory_xytime__behaveformer_stdat",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "swipe__imu_trajectory_xytime__hmog_style_rf": {
+      "thresholds": "checkpoints/detectors/swipe__imu_trajectory_xytime__hmog_style_rf/thresholds.json",
+      "frr5": 0.753670732569555,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v8",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/swipe__imu_trajectory_xytime__hmog_style_rf",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "swipe__imu_trajectory_xytime__hmog_style_svm": {
+      "thresholds": "checkpoints/detectors/swipe__imu_trajectory_xytime__hmog_style_svm/thresholds.json",
+      "frr5": 0.3820763522221499,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v8",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/swipe__imu_trajectory_xytime__hmog_style_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "swipe__imu_trajectory_xytime__paper_svm": {
+      "thresholds": "checkpoints/detectors/swipe__imu_trajectory_xytime__paper_svm/thresholds.json",
+      "frr5": 0.3678906496109886,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v8",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/swipe__imu_trajectory_xytime__paper_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "swipe__imu_trajectory_xytime__paper_xgboost": {
+      "thresholds": "checkpoints/detectors/swipe__imu_trajectory_xytime__paper_xgboost/thresholds.json",
+      "frr5": 0.8281400203704834,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v8",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/swipe__imu_trajectory_xytime__paper_xgboost",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "swipe__trajectory_xytime__authconformer": {
+      "thresholds": "checkpoints/detectors/swipe__trajectory_xytime__authconformer/thresholds.json",
+      "frr5": 0.8908795118331909,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v8",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/swipe__trajectory_xytime__authconformer",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "swipe__trajectory_xytime__behaveformer_stdat": {
+      "thresholds": "checkpoints/detectors/swipe__trajectory_xytime__behaveformer_stdat/thresholds.json",
+      "frr5": 0.7565039396286011,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v8",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/swipe__trajectory_xytime__behaveformer_stdat",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "swipe__trajectory_xytime__hmog_style_rf": {
+      "thresholds": "checkpoints/detectors/swipe__trajectory_xytime__hmog_style_rf/thresholds.json",
+      "frr5": 0.785205742891812,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v8",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/swipe__trajectory_xytime__hmog_style_rf",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "swipe__trajectory_xytime__hmog_style_svm": {
+      "thresholds": "checkpoints/detectors/swipe__trajectory_xytime__hmog_style_svm/thresholds.json",
+      "frr5": 0.3037665875063705,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v8",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/swipe__trajectory_xytime__hmog_style_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "swipe__trajectory_xytime__paper_svm": {
+      "thresholds": "checkpoints/detectors/swipe__trajectory_xytime__paper_svm/thresholds.json",
+      "frr5": 0.3572293948750615,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v8",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/swipe__trajectory_xytime__paper_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "swipe__trajectory_xytime__paper_xgboost": {
+      "thresholds": "checkpoints/detectors/swipe__trajectory_xytime__paper_xgboost/thresholds.json",
+      "frr5": 0.8490198254585266,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v8",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/swipe__trajectory_xytime__paper_xgboost",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "tap__imu_only__authconformer": {
+      "thresholds": "checkpoints/detectors/tap__imu_only__authconformer/thresholds.json",
+      "frr5": 0.7804486751556396,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_full",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/tap__imu_only__authconformer",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "tap__imu_only__behaveformer_stdat": {
+      "thresholds": "checkpoints/detectors/tap__imu_only__behaveformer_stdat/thresholds.json",
+      "frr5": 0.8456559777259827,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_full",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/tap__imu_only__behaveformer_stdat",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "tap__imu_only__hmog_style_rf": {
+      "thresholds": "checkpoints/detectors/tap__imu_only__hmog_style_rf/thresholds.json",
+      "frr5": 0.8548549478801978,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_full",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/tap__imu_only__hmog_style_rf",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "tap__imu_only__hmog_style_svm": {
+      "thresholds": "checkpoints/detectors/tap__imu_only__hmog_style_svm/thresholds.json",
+      "frr5": 0.3357731303960103,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_full",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/tap__imu_only__hmog_style_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "tap__imu_only__paper_svm": {
+      "thresholds": "checkpoints/detectors/tap__imu_only__paper_svm/thresholds.json",
+      "frr5": 0.30713003196261374,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_full",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/tap__imu_only__paper_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "tap__imu_only__paper_xgboost": {
+      "thresholds": "checkpoints/detectors/tap__imu_only__paper_xgboost/thresholds.json",
+      "frr5": 0.9023129940032959,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_full",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/tap__imu_only__paper_xgboost",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "tap__imu_trajectory_xytime__authconformer": {
+      "thresholds": "checkpoints/detectors/tap__imu_trajectory_xytime__authconformer/thresholds.json",
+      "frr5": 0.986500084400177,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/tap__imu_trajectory_xytime__authconformer",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "tap__imu_trajectory_xytime__behaveformer_stdat": {
+      "thresholds": "checkpoints/detectors/tap__imu_trajectory_xytime__behaveformer_stdat/thresholds.json",
+      "frr5": 0.9717734456062317,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/tap__imu_trajectory_xytime__behaveformer_stdat",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "tap__imu_trajectory_xytime__hmog_style_rf": {
+      "thresholds": "checkpoints/detectors/tap__imu_trajectory_xytime__hmog_style_rf/thresholds.json",
+      "frr5": 0.8361243906790622,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/tap__imu_trajectory_xytime__hmog_style_rf",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "tap__imu_trajectory_xytime__hmog_style_svm": {
+      "thresholds": "checkpoints/detectors/tap__imu_trajectory_xytime__hmog_style_svm/thresholds.json",
+      "frr5": 0.41130172784580726,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/tap__imu_trajectory_xytime__hmog_style_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "tap__imu_trajectory_xytime__paper_svm": {
+      "thresholds": "checkpoints/detectors/tap__imu_trajectory_xytime__paper_svm/thresholds.json",
+      "frr5": 0.37705433607438976,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/tap__imu_trajectory_xytime__paper_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "tap__imu_trajectory_xytime__paper_xgboost": {
+      "thresholds": "checkpoints/detectors/tap__imu_trajectory_xytime__paper_xgboost/thresholds.json",
+      "frr5": 0.8815332055091858,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/tap__imu_trajectory_xytime__paper_xgboost",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "tap__trajectory_xytime__authconformer": {
+      "thresholds": "checkpoints/detectors/tap__trajectory_xytime__authconformer/thresholds.json",
+      "frr5": 0.7563283443450928,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/tap__trajectory_xytime__authconformer",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "tap__trajectory_xytime__behaveformer_stdat": {
+      "thresholds": "checkpoints/detectors/tap__trajectory_xytime__behaveformer_stdat/thresholds.json",
+      "frr5": 0.6582555174827576,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/tap__trajectory_xytime__behaveformer_stdat",
+      "model_artifacts": [
+        "checkpoint.pt"
+      ]
+    },
+    "tap__trajectory_xytime__hmog_style_rf": {
+      "thresholds": "checkpoints/detectors/tap__trajectory_xytime__hmog_style_rf/thresholds.json",
+      "frr5": 0.8445339700695178,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/tap__trajectory_xytime__hmog_style_rf",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "tap__trajectory_xytime__hmog_style_svm": {
+      "thresholds": "checkpoints/detectors/tap__trajectory_xytime__hmog_style_svm/thresholds.json",
+      "frr5": 0.20414616470302535,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/tap__trajectory_xytime__hmog_style_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "tap__trajectory_xytime__paper_svm": {
+      "thresholds": "checkpoints/detectors/tap__trajectory_xytime__paper_svm/thresholds.json",
+      "frr5": 0.19410358186715207,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/tap__trajectory_xytime__paper_svm",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    },
+    "tap__trajectory_xytime__paper_xgboost": {
+      "thresholds": "checkpoints/detectors/tap__trajectory_xytime__paper_xgboost/thresholds.json",
+      "frr5": 0.8361629247665405,
+      "score_direction": "larger_is_more_fake",
+      "bundle": "replay_dataset_v3",
+      "manifest": "data/event_level/ACTION_BUNDLE_MAP.json",
+      "model_dir": "checkpoints/detectors/tap__trajectory_xytime__paper_xgboost",
+      "model_artifacts": [
+        "model.joblib"
+      ]
+    }
+  },
+  "event_data_redistributed": false,
+  "event_data_notice": "Processed HMOG signal shards and per-event score files are not redistributed without the dataset owner’s prior written approval. Licensed users can reconstruct them using ACTION_BUNDLE_MAP.json."
+}

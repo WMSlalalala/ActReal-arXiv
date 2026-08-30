@@ -1,0 +1,58 @@
+{
+  "schema": "actreal_component_ablation_final",
+  "modality": "imu_only",
+  "actions": ["tap", "scroll", "swipe", "pinch"],
+  "detectors": [
+    "hmog_style_svm",
+    "hmog_style_rf",
+    "paper_svm",
+    "paper_xgboost",
+    "authconformer",
+    "behaveformer_stdat"
+  ],
+  "cells_per_arm": 24,
+  "keystroke_excluded_because": "Keystroke uses the analytic adapter rather than the four gesture diffusion generators.",
+  "operating_point": "each cell's development-selected FRR=5% threshold; accepted iff score < threshold",
+  "reference_arm": {"id": "A1"},
+  "arms": [
+    {
+      "id": "A3",
+      "paper_row": "A3",
+      "removes": "feature critic",
+      "config_change": {"adv.critics.feature": false},
+      "generator_source": {"tap": "self", "scroll": "self", "swipe": "self", "pinch": "self"},
+      "reported_actions": ["tap", "scroll", "swipe", "pinch"],
+      "ablated_actions": ["tap", "scroll", "swipe", "pinch"]
+    },
+    {
+      "id": "A4",
+      "paper_row": "A4",
+      "removes": "set critic",
+      "config_change": {"adv.critics.set": false},
+      "generator_source": {"tap": "self", "scroll": "self", "swipe": "self", "pinch": "self"},
+      "reported_actions": ["tap", "scroll", "swipe", "pinch"],
+      "ablated_actions": ["tap", "scroll", "swipe", "pinch"]
+    },
+    {
+      "id": "A5",
+      "paper_row": "A5",
+      "removes": "waveform critic",
+      "config_change": {"adv.critics.waveform": false},
+      "generator_source": {"tap": "self", "scroll": "self", "swipe": "self", "pinch": "self"},
+      "reported_actions": ["tap", "scroll", "swipe", "pinch"],
+      "ablated_actions": ["tap", "scroll", "swipe", "pinch"]
+    },
+    {
+      "id": "A6",
+      "paper_row": "A6",
+      "removes": "protected adversarial updates: conflict projection and gradient-norm cap",
+      "config_change": {
+        "adv.project_conflicts": false,
+        "adv.max_grad_ratio": 1000000000.0
+      },
+      "generator_source": {"tap": "self", "scroll": "self", "swipe": "self", "pinch": "self"},
+      "reported_actions": ["tap", "scroll", "swipe", "pinch"],
+      "ablated_actions": ["tap", "scroll", "swipe", "pinch"]
+    }
+  ]
+}

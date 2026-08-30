@@ -1,0 +1,11 @@
+{
+  "schema": "actreal_release_sampling_v1",
+  "sampling_rate_hz": 100,
+  "runtime_overrides": {
+    "tap": {"ddim_steps": 240},
+    "scroll": {"ddim_steps": 320},
+    "swipe": {"ddim_steps": 240},
+    "pinch": {"ddim_steps": 240}
+  },
+  "note": "These are the canonical runtime values used to build the frozen caches and match every packaged generator effective_config.json."
+}

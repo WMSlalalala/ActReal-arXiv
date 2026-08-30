@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.gradle/
+build/
+local.properties
+.actreal-work/
+licensed_input/
+results/
+*.log
+*.tmp
+.DS_Store

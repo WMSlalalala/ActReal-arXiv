@@ -1,0 +1,216 @@
+{
+  "schema_version": "actreal_keymap_v1",
+  "package": "com.google.android.inputmethod.latin",
+  "chars": {
+    " ": [
+      390,
+      2105,
+      798,
+      2255
+    ],
+    ",": [
+      165,
+      2105,
+      272,
+      2255
+    ],
+    ".": [
+      807,
+      2105,
+      914,
+      2255
+    ],
+    "a": [
+      58,
+      1805,
+      165,
+      1955
+    ],
+    "b": [
+      592,
+      1955,
+      699,
+      2105
+    ],
+    "c": [
+      378,
+      1955,
+      485,
+      2105
+    ],
+    "d": [
+      272,
+      1805,
+      379,
+      1955
+    ],
+    "e": [
+      218,
+      1655,
+      325,
+      1805
+    ],
+    "f": [
+      379,
+      1805,
+      486,
+      1955
+    ],
+    "g": [
+      486,
+      1805,
+      593,
+      1955
+    ],
+    "h": [
+      593,
+      1805,
+      700,
+      1955
+    ],
+    "i": [
+      753,
+      1655,
+      860,
+      1805
+    ],
+    "j": [
+      700,
+      1805,
+      807,
+      1955
+    ],
+    "k": [
+      807,
+      1805,
+      914,
+      1955
+    ],
+    "l": [
+      914,
+      1805,
+      1021,
+      1955
+    ],
+    "m": [
+      806,
+      1955,
+      913,
+      2105
+    ],
+    "n": [
+      699,
+      1955,
+      806,
+      2105
+    ],
+    "o": [
+      860,
+      1655,
+      967,
+      1805
+    ],
+    "p": [
+      967,
+      1655,
+      1074,
+      1805
+    ],
+    "q": [
+      4,
+      1655,
+      111,
+      1805
+    ],
+    "r": [
+      325,
+      1655,
+      432,
+      1805
+    ],
+    "s": [
+      165,
+      1805,
+      272,
+      1955
+    ],
+    "t": [
+      432,
+      1655,
+      539,
+      1805
+    ],
+    "u": [
+      646,
+      1655,
+      753,
+      1805
+    ],
+    "v": [
+      485,
+      1955,
+      592,
+      2105
+    ],
+    "w": [
+      111,
+      1655,
+      218,
+      1805
+    ],
+    "x": [
+      271,
+      1955,
+      378,
+      2105
+    ],
+    "y": [
+      539,
+      1655,
+      646,
+      1805
+    ],
+    "z": [
+      164,
+      1955,
+      271,
+      2105
+    ]
+  },
+  "shift": [
+    31,
+    1955,
+    138,
+    2105
+  ],
+  "delete": [
+    940,
+    1955,
+    1047,
+    2105
+  ],
+  "symbols": [
+    31,
+    2105,
+    138,
+    2255
+  ],
+  "area": [
+    4,
+    1655,
+    1076,
+    2255
+  ],
+  "provenance": {
+    "device": "Pixel 10 (frankel), 1080x2424",
+    "ime": "com.google.android.inputmethod.latin (Gboard), portrait, with number row",
+    "method": "touch probe, not the accessibility tree",
+    "why": "uiautomator dump returns only the focused window; the IME is a window of its own and never appears in it, so the key rectangles cannot be read the way the idle filler reads inert regions. Measuring them off a screenshot by eye put the letter rows 50 px high -- every centre still landed inside its key, so an a-z probe passed, but contacts scattered upward reached the number row and o came back 9, p came back 0, t came back 5.",
+    "measured": {
+      "row1_top": 1655,
+      "row1_bottom": 1805,
+      "note": "found by tapping a column at 10 px steps and reading what the field received: 1600-1650 gave 9, 1660 onwards gave o; 1700-1800 gave o, 1810 onwards gave k. Row pitch is therefore 150, not the 165 the screenshot suggested."
+    },
+    "verified": "a-z tapped through these centres returns abcdefghijklmnopqrstuvwxyz in both the platform search box and the study app's own field"
+  }
+}

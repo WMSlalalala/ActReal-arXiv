@@ -1,0 +1,18 @@
+# Python >= 3.10
+numpy
+scipy
+pandas
+torch
+scikit-learn
+xgboost
+joblib
+pyyaml
+frida
+opencv-python
+Pillow
+matplotlib
+seaborn
+einops
+tensorboard
+openai
+pytest

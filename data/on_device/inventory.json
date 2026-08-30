@@ -1,0 +1,67 @@
+{
+  "schema": "actreal_on_device_processed_v1",
+  "protocol_expected_participants": 20,
+  "exported_participants": 20,
+  "exported_participant_ids": [
+    "P00",
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10",
+    "P11",
+    "P12",
+    "P13",
+    "P14",
+    "P15",
+    "P16",
+    "P17",
+    "P18",
+    "P19"
+  ],
+  "expected_devices_per_participant": [
+    "pixel10",
+    "s21"
+  ],
+  "exported_devices": 40,
+  "exported_canonical_task_runs": 120,
+  "expected_files_per_device": 10,
+  "exported_npz_files": 400,
+  "missing_protocol_participant_ids": [],
+  "canonical_test_rule": "earliest completed run per participant-device-task",
+  "fewshot_rule": "latest completed calibration with exactly five events per action",
+  "sample_totals": {
+    "fewshot": {
+      "tap": 200,
+      "scroll": 200,
+      "swipe": 200,
+      "pinch": 200,
+      "keystroke": 200
+    },
+    "test": {
+      "tap": 1573,
+      "scroll": 1141,
+      "swipe": 127,
+      "pinch": 167,
+      "keystroke": 600
+    }
+  },
+  "imu_window_frames": {
+    "tap": 35,
+    "scroll": 179,
+    "swipe": 167,
+    "pinch": 116,
+    "keystroke": 256
+  },
+  "imu_sampling_hz": 100,
+  "touch_timestamps": "milliseconds relative to each event start",
+  "contains_raw_csv": false,
+  "contains_entered_text": false,
+  "contains_absolute_paths": false,
+  "errors": []
+}

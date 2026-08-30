@@ -1,0 +1,33 @@
+{
+  "schema_version": "actreal_canonical_event_cell_sources_v1",
+  "redistribution": "Processed HMOG signal shards are not included because the HMOG license prohibits redistribution without prior written approval.",
+  "local_data_root_env": "ACTREAL_EVENT_DATA_ROOT",
+  "rule": "Each action-modality cell below names the single frozen source bundle used for the released score and detector checkpoint. Bundle labels are provenance identifiers, not multiple alternatives shipped in this artifact.",
+  "actions": {
+    "tap": {
+      "imu_only": "replay_dataset_full",
+      "trajectory_xytime": "replay_dataset_v3",
+      "imu_trajectory_xytime": "replay_dataset_v3"
+    },
+    "scroll": {
+      "imu_only": "replay_dataset_v15",
+      "trajectory_xytime": "replay_dataset_v15",
+      "imu_trajectory_xytime": "replay_dataset_v15"
+    },
+    "swipe": {
+      "imu_only": "replay_dataset_full",
+      "trajectory_xytime": "replay_dataset_v8",
+      "imu_trajectory_xytime": "replay_dataset_v8"
+    },
+    "pinch": {
+      "imu_only": "replay_dataset_full",
+      "trajectory_xytime": "replay_dataset_v3",
+      "imu_trajectory_xytime": "replay_dataset_v3"
+    },
+    "keystroke": {
+      "imu_only": "replay_dataset_v10",
+      "trajectory_xytime": "replay_dataset_v10",
+      "imu_trajectory_xytime": "replay_dataset_v10"
+    }
+  }
+}

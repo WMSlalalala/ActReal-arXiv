@@ -1,0 +1,43 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "com.sensorworldmodel.collector"
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.sensorworldmodel.collector"
+        minSdk 34
+        targetSdk 35
+        versionCode 5
+        versionName "2.0.1-ui2"
+        testApplicationId "com.sensorworldmodel.collector.e2e.test"
+        testInstrumentationRunner \
+                "com.sensorworldmodel.collector.e2e.CollectorE2eInstrumentation"
+    }
+
+    // androidTest must never target the production/debug application ID.  The
+    // e2e build type is the same app code under an isolated package/UID.
+    testBuildType "e2e"
+
+    buildTypes {
+        debug {
+        }
+        e2e {
+            initWith debug
+            applicationIdSuffix ".e2e"
+            versionNameSuffix "-e2e"
+            matchingFallbacks = ["debug"]
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}

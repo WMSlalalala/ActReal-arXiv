@@ -1,0 +1,11 @@
+{
+  "detector_protocol": "registered_feature_paper_deep_v4",
+  "frozen_config_sha256": "563a1471b40ec7fcd1c7617840dbc2e7f96a9d1028174d2cf83f29cfd550f138",
+  "frr5": 0.3572293948750615,
+  "manifest_sha256": "607da7528ebdc4b50cd717f608db0999917034032c7b41955aff438f057b29cd",
+  "model_sha256": "eec7b46cbf761daed7fb0419ed43339dded09864a30f76f27af1eda36de925af",
+  "schema_version": "formal_event_pad_action_cell_v5",
+  "score_direction": "larger_is_more_fake",
+  "selection_split": "development",
+  "target_frr": 0.05
+}

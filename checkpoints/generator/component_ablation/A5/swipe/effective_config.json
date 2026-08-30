@@ -1,0 +1,145 @@
+{
+  "actions": [
+    "tap",
+    "scroll",
+    "swipe",
+    "pinch"
+  ],
+  "adv": {
+    "batch_size": 16,
+    "critics": {
+      "feature": true,
+      "set": true,
+      "waveform": false
+    },
+    "d_steps": 1,
+    "enabled": true,
+    "feature_match_min_scale": 0.05,
+    "feature_match_mode": "rich",
+    "feature_match_std_weight": 0.5,
+    "feature_match_weight": 0.02,
+    "feature_mode": "rich",
+    "feature_weight": 1.0,
+    "g_ramp_frac": 0.1,
+    "g_weight": 0.04,
+    "grad_clip": 1.0,
+    "lr": 0.0001,
+    "max_grad_ratio": 0.5,
+    "population_refs": 3,
+    "project_conflicts": true,
+    "r1_every": 16,
+    "r1_gamma": 1.0,
+    "real_negative_weight": 0.25,
+    "sample_steps": 8,
+    "selection_adv_weight": 0.1,
+    "set_weight": 0.7,
+    "start_frac": 0.25,
+    "update_every": 4,
+    "waveform_weight": 1.0,
+    "weight_decay": 1e-06
+  },
+  "data": {
+    "max_ref_per_user": 8,
+    "metadata_prior_users": "train",
+    "min_ref_per_user": 1,
+    "noshot_store_audit_refs": false,
+    "stats_mask": "loss_mask",
+    "train_val_ratio_within_train_users": 0.08
+  },
+  "diffusion": {
+    "beta_end": 0.02,
+    "beta_start": 0.0001,
+    "objective": "eps",
+    "sample_steps": 240,
+    "self_condition": false,
+    "train_steps": 1000
+  },
+  "loss": {
+    "fourier_weight": 0.01,
+    "mse_weight": 1.0,
+    "velocity_weight": 0.02
+  },
+  "method": "diffusion",
+  "methods": {
+    "diffusion": {
+      "loss_overrides": {
+        "fourier_weight": 0.01,
+        "velocity_weight": 0.02
+      }
+    },
+    "new": {
+      "loss_overrides": {}
+    }
+  },
+  "model": {
+    "base_channels": 96,
+    "cond_dim": 192,
+    "dropout": 0.05,
+    "n_blocks": 8,
+    "ref_encoder_channels": 64,
+    "representation": "raw_ddpm",
+    "time_embed_dim": 128,
+    "use_ref_context": true
+  },
+  "paths": {
+    "data_dir": "data/generator_training/processed",
+    "split_file": "data/splits/users_seed42.json",
+    "output_root": "outputs/generator"
+  },
+  "protocols": {
+    "fewshot": {
+      "adv": false,
+      "fewshot": true,
+      "k_refs": 5
+    },
+    "fewshot_adv": {
+      "adv": true,
+      "fewshot": true,
+      "k_refs": 5
+    },
+    "noshot": {
+      "adv": false,
+      "fewshot": false,
+      "k_refs": 0
+    },
+    "noshot_adv": {
+      "adv": true,
+      "fewshot": false,
+      "k_refs": 0
+    }
+  },
+  "runtime": {
+    "amp": false,
+    "device": "auto",
+    "num_workers": 2,
+    "seed": 42
+  },
+  "sample": {
+    "batch_size": 128,
+    "checkpoint": "auto",
+    "clamp_std": 8.0,
+    "metadata_source": "train_prior",
+    "per_user": 200,
+    "split": "test"
+  },
+  "train": {
+    "batch_size": 128,
+    "ema_decay": 0.999,
+    "epochs": 156,
+    "grad_clip": 1.0,
+    "log_every_steps": 100,
+    "lr": 3e-05,
+    "quick_eval_batches": 16,
+    "quick_eval_fracs": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0
+    ],
+    "quick_sample_count": 128,
+    "save_epoch_checkpoints": true,
+    "weight_decay": 1e-06
+  },
+  "version": "actreal_generator_release"
+}

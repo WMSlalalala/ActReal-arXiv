@@ -1,0 +1,53 @@
+{
+  "note": "Original run and checkpoint names for the packaged inference weights. fewshot_adv is the released ActReal generator; noshot_adv is the pinned zero-shot reference ablation.",
+  "runs": {
+    "pinch": {
+      "fewshot_adv": {
+        "checkpoint": "last.pt",
+        "run": "pinch_diffusion_fewshot_adv_featmatch_20260630_0750",
+        "source": "release cache metadata_json"
+      },
+      "noshot_adv": {
+        "checkpoint": "best_epoch0048_step13584_metric0.099054_20260629_220044.pt",
+        "run": "pinch_diffusion_noshot_adv_v21",
+        "source": "pinned zero-shot reference ablation checkpoint"
+      }
+    },
+    "scroll": {
+      "fewshot_adv": {
+        "checkpoint": "last.pt",
+        "run": "scroll_diffusion_fewshot_adv_featdist_20260630_0825",
+        "source": "release cache metadata_json"
+      },
+      "noshot_adv": {
+        "checkpoint": "best_post_adv_epoch0048_step20448_metric0.313296_20260629_210715.pt",
+        "run": "scroll_diffusion_noshot_adv_v21",
+        "source": "pinned zero-shot reference ablation checkpoint"
+      }
+    },
+    "swipe": {
+      "fewshot_adv": {
+        "checkpoint": "best_post_adv_epoch0125_step43000_metric0.371361_20260630_070731.pt",
+        "run": "swipe_diffusion_fewshot_adv_featmatch_20260630_0703",
+        "source": "release cache metadata_json"
+      },
+      "noshot_adv": {
+        "checkpoint": "best_post_adv_epoch0032_step11008_metric0.316679_20260629_213014.pt",
+        "run": "swipe_diffusion_noshot_adv_v21",
+        "source": "pinned zero-shot reference ablation checkpoint"
+      }
+    },
+    "tap": {
+      "fewshot_adv": {
+        "checkpoint": "best_post_adv_epoch0120_step12360_metric0.314798_20260630_022125.pt",
+        "run": "tap_diffusion_fewshot_adv_padpush2_20260630_021833",
+        "source": "release cache metadata_json"
+      },
+      "noshot_adv": {
+        "checkpoint": "best_post_adv_epoch0080_step8240_metric0.294835_20260629_204532.pt",
+        "run": "tap_diffusion_noshot_adv_v21",
+        "source": "pinned zero-shot reference ablation checkpoint"
+      }
+    }
+  }
+}
