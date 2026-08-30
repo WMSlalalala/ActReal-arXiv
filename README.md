@@ -195,3 +195,8 @@ Keystroke uses the released non-diffusion adapter and therefore has no
 diffusion checkpoint. The `.pt` files are inference artifacts and do not
 contain optimizer state.
 
+## License
+
+ActReal-authored code is licensed under the Apache License 2.0. Third-party
+components remain subject to the licenses included in their respective
+directories.
